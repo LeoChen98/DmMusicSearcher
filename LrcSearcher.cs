@@ -105,8 +105,6 @@ namespace MusicSearcher
             }
             catch(Exception ex)
             {
-                string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：LrcSeacher\r\n版本：6.0.0.0\r\n函数:BaiduLrc\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:" + Query + "\r\n  pn:" + pn + "\r\n时间：" + DateTime.Now.ToString();
-                ErrorReport.SendErrorReport(errorText);
                 return null;
             }
         }
@@ -148,8 +146,6 @@ namespace MusicSearcher
             }
             catch(Exception ex)
             {
-                string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：LrcSeacher\r\n版本：6.0.0.0\r\n函数:QQMusicLrc\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:" + Query + "\r\n  pn:" + pn + "\r\n时间：" + DateTime.Now.ToString();
-                ErrorReport.SendErrorReport(errorText);
                 return null;
             }
         }
@@ -180,8 +176,6 @@ namespace MusicSearcher
             }
             catch(Exception ex)
             {
-                string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：LrcSeacher\r\n版本：6.0.0.0\r\n函数:KugouLrc\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:" + Query + "\r\n  duration:" + duration + "\r\n时间：" + DateTime.Now.ToString();
-                ErrorReport.SendErrorReport(errorText);
                 return null;
             }
         }
@@ -207,8 +201,6 @@ namespace MusicSearcher
             }
             catch(Exception ex)
             {
-                string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：LrcSeacher\r\n版本：6.0.0.0\r\n函数:KugouGetLrcContent\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    url:" + url + "\r\n时间：" + DateTime.Now.ToString();
-                ErrorReport.SendErrorReport(errorText);
                 return "";
             }
         }
@@ -249,8 +241,6 @@ namespace MusicSearcher
             }
             catch(Exception ex)
             {
-                string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：LrcSeacher\r\n版本：6.0.0.0\r\n函数:GeCiMiLrc\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    SongName:" + SongName + "\r\n  Singer:" + Singer + "\r\n时间：" + DateTime.Now.ToString();
-                ErrorReport.SendErrorReport(errorText);
                 return null;
             }
         }
