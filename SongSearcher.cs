@@ -702,8 +702,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Baidu\r\n版本：6.0.0.0\r\n函数:Search\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:"+ Query + "\r\n  PageNumber:" + PageNumber + "\r\n   PageSize:" + PageSize + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return new ResultData();
                 }
             }
@@ -789,8 +788,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Baidu\r\n版本：6.0.0.0\r\n函数:GetSong\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Result:" + Result.ToString()  + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return Result;
                 }
 
@@ -856,8 +854,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Baidu\r\n版本：6.0.0.0\r\n函数:GetSong\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    SongId:" + SongId + "\r\n  Quanity:" + Quanlity + "\r\n   \r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
 
@@ -883,8 +880,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Baidu\r\n版本：6.0.0.0\r\n函数:GetXcode\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    SongId:" + SongId + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
             }
@@ -967,8 +963,7 @@ namespace MusicSearcher
                 }
                 catch (Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.QQMusic\r\n版本：6.0.0.0\r\n函数:Search\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:" + Query + "\r\n  PageNumber:" + PageNumber + "\r\n   PageSize:" + PageSize + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return new ResultData();
                 }
             }
@@ -993,8 +988,7 @@ namespace MusicSearcher
                 }
                 catch (Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.QQMusic\r\n版本：6.0.0.0\r\n函数:GetVkey\r\n错误信息：" + ex.Message + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
             }
@@ -1022,8 +1016,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.QQMusic\r\n版本：6.0.0.0\r\n函数:GetLrc\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    url:" + url + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
             }
@@ -1082,8 +1075,7 @@ namespace MusicSearcher
                 }
                 catch (Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Kugou\r\n版本：6.0.0.0\r\n函数:Search\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:" + Query + "\r\n  PageNumber:" + PageNumber + "\r\n   PageSize:" + PageSize + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return new ResultData();
                 }
             }
@@ -1109,8 +1101,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Kugou\r\n版本：6.0.0.0\r\n函数:GetSongUrl\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Hash:" + Hash + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
             }
@@ -1141,8 +1132,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.Kugou\r\n版本：6.0.0.0\r\n函数:GetLrc\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    url:" + url + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
             }
@@ -1186,8 +1176,7 @@ namespace MusicSearcher
                 }
                 catch (Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.FiveSing\r\n版本：6.0.0.0\r\n函数:Search\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    Query:" + Query + "\r\n  PageNumber:" + PageNumber + "\r\n   PageSize:" + PageSize + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return new ResultData();
                 }
             }
@@ -1214,8 +1203,7 @@ namespace MusicSearcher
                 }
                 catch(Exception ex)
                 {
-                    string errorText = "程序：大猫音乐盒\r\n模块：MusicSearcher\r\n类：SongSeacher.FiveSing\r\n版本：6.0.0.0\r\n函数:GetSong\r\n错误信息：" + ex.Message + "\r\n传入参数：\r\n    LinkStr:" + LinkStr + "\r\n时间：" + DateTime.Now.ToString();
-                    ErrorReport.SendErrorReport(errorText);
+
                     return "";
                 }
             }
